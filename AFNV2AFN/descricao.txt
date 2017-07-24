@@ -1,0 +1,10 @@
+﻿AFNV 	# (Linha 1) Representação do formalismo
+3 0 1 2 # (Linha 2) 3 estados: 0, 1 e 2
+2 a b 	# (Linha 3) 2 terminais: a e b
+0 		# (Linha 4) O estado inicial: 0
+1 2 	# (Linha 5) Possui 1 estado final: 2
+0 a 0 	# (Linha 6 em diante) δ(0, a) = {0}
+0 - 1 	# δ(0, ε) = {1}
+1 b 1 	# δ(1, b) = {1}
+1 - 2 	# δ(1, ε) = {2}
+2 a 2 	# δ(2, ε) = {2}
